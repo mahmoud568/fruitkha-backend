@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, "team")));
 app.use(express.static(path.join(__dirname, "news")));
 app.use(express.static(path.join(__dirname, "farmers")));
 
-const baseURL = "http://localhost:3000/";
+const baseURL = "https://fruitkha-backend.onrender.com/";
 const fruits = [
   {
     fruitId: 1,
